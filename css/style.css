@@ -1,0 +1,378 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+background-color: rgb(165, 220, 244);
+}
+.navBar
+{
+width: 100%;
+height: fit-content;
+background-color: rgba(10, 53, 66, 0.897);
+position: fixed;
+top: -50px;
+width: 100%;
+display: block;
+transition: top 0.3s;
+}
+.navBar ul 
+{
+    text-decoration: none;
+    list-style: none !important;
+    display: flex;
+    flex-direction: row;
+}
+.liClassStyle
+
+{
+color: azure;
+margin: 0px 15px;
+font-size: 35px;
+padding: 10px;
+cursor: pointer;
+text-decoration: none;
+
+}
+
+section
+{
+width:99%;
+height: 800px;
+background-color: rgb(165, 220, 244);
+margin: 10px;
+border-radius: 10px;
+}
+.paraDiv
+{
+margin: auto ;
+width: 100%;
+height: 100%;
+border-radius: 10px;
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+background-color: rgb(25, 93, 93);
+
+}
+.paraDiv p 
+{
+color: whitesmoke;
+text-align: left;
+font-size: 30px;
+width: 100%;
+
+
+}
+a:link 
+{
+text-decoration: none;
+color: azure;
+}
+a:visited
+{
+text-decoration: none;
+color: azure;
+} 
+.btn
+{
+color: rgb(232, 232, 232);
+width: 60px;
+height: 60px;
+border-radius: 50%;
+border: 0;
+background-color: rgb(29, 49, 144);
+position: fixed;
+bottom: 20px;
+right: 40px;
+display: block;
+cursor: pointer;
+}
+img{
+width: 100%;
+height: 100%;
+}
+.img-container
+{
+width: 50%;
+height: 70%;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center; 
+margin: 5%;
+
+}
+.para-container
+{
+width: 50%;
+height: fit-content;
+padding: 5%;
+margin-top: 6%;
+}
+.your_active_class
+{
+background-color: rgba(103, 164, 190, 0.63) !important;
+}
+
+
+.img-1
+{
+background: url('imgs/pexels-frans-van-heerden-624015.jpg');
+
+}
+.img-2
+{
+
+background: url('imgs/pexels-jaime-reimer-2662116.jpg');
+width: 40%;
+height: 80%;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center; 
+margin: 5%;
+}
+.img-3
+{
+
+background: url('imgs/pexels-kammeran-gonzalezkeola-7925859.jpg');
+width: 40%;
+height: 80%;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center; 
+margin: 5%;
+
+}
+.img-4
+{
+background: url('imgs/pexels-francesco-ungaro-1671324.jpg');
+width: 40%;
+height: 80%;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center; 
+margin: 5%;
+}
+.img-5
+{
+background: url('imgs/pexels-tetyana-kovyrina-13188455.jpg');
+width: 40%;
+height: 80%;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center; 
+margin: 5%;
+
+}
+.landingPage
+{
+width: 100%;
+height: 800px;
+position: relative;
+background-color: rgb(29, 29, 77);
+background: url('../imgs/pexels-andy-vu-3244513.jpg');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+z-index: -3;
+}
+.landing
+{
+width: 100%;
+height: 80%;
+margin: auto;
+position: relative;
+top: auto;
+
+}
+.landing p
+{
+color: bisque;
+font-family: fantasy;
+font-size: 100px;
+position: absolute;
+top: 40%;
+left: 13%;
+}
+.opecity
+{
+width: 100%;
+height: 100%;
+background-color: rgba(26, 26, 27, 0.701);
+position: absolute;
+}
+
+@media  (min-width:150px) and (max-width: 600px) {
+
+.navBar
+{
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(126, 52, 182);
+    transition: top 0.3s;
+    top: 0 !important;
+}
+.navBar ul 
+{
+        text-decoration: none;
+        list-style: none !important;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+}
+
+.navBar ul li {
+font-size: 15px;
+margin: auto;
+};
+.landingPage
+{
+width: 100%;
+height: 800px;
+display: block !important;
+background-color: rgb(29, 29, 77);
+background: url('../imgs/pexels-andy-vu-3244513.jpg');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+z-index: -3;
+}
+section
+{
+    width:100%;
+    height:fit-content;
+    background-color: rgba(64, 25, 94, 0.692);
+    margin-bottom: 10px;
+}
+.paraDiv
+{
+    margin: auto;
+    margin-top:auto 0%;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.paraDiv p 
+{
+    width: 100%;
+    color: whitesmoke;
+    text-align: justify;
+    font-size: 20px;
+    align-items: center;
+    text-align: left;
+    margin: 10px;
+    padding: 0%;
+}
+img{
+    width: 100%;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    margin: 0%;
+}
+.img-container
+{
+    width: 100%;
+    height: 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0% !important;
+
+}
+.para-container
+{
+    width: 100%;
+    height: fit-content;
+    padding: 5%;
+    margin-top: 6%;
+}
+
+
+}
+
+@media  (min-width: 600px) and (max-width: 912px) {
+
+.navBar
+{
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(126, 52, 182);
+    display: block;
+    transition: top 0.3s;
+    top: 0 !important;
+}
+.navBar ul 
+{
+        text-decoration: none;
+        list-style: none !important;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: auto;
+}
+.navBar ul li {
+    font-size: 20px;
+    margin: auto;
+    padding-bottom: 2px;
+
+}
+section
+{
+    width:100%;
+    height:fit-content;
+    background-color: rgba(64, 25, 94, 0.692);
+    margin-bottom: 10px;
+}
+.paraDiv
+{
+    margin: auto;
+    margin-top:auto 0%;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+    .paraDiv p 
+{
+    width: 100%;
+    color: whitesmoke;
+    text-align: justify;
+    font-size: 20px;
+    align-items: center;
+    text-align: left;
+    margin: 10px;
+    padding: 0%;
+}
+img{
+    width: 100%;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    margin: 0%;
+}
+.img-container
+{
+    width: 100%;
+    height: 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0% !important;
+
+}
+.para-container
+{
+    width: 100%;
+    height: fit-content;
+    padding: 5%;
+    margin-top: 6%;
+}
+}

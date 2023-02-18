@@ -1,6 +1,6 @@
-#Project Title
+#sample of landing page
 
-##Table of contents
+##dynamiclly adding any section will automaticlly set section name in nav bar 
 
 1-Project Title
 2-Table of contents
